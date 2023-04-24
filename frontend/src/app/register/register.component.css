@@ -1,0 +1,52 @@
+:host {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+}
+
+mat-card {
+    padding: 16px;
+}
+
+mat-form-field {
+    width: 100%;
+    min-width: 300px;
+}
+
+mat-card-title,
+mat-card-content {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    padding: 16px;
+    width: 300px;
+    color: white;
+    background-color: red;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mat-mdc-card-title {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0,0,0,.87);
+}
+
+mat-card-content {
+    font-size: 14px;
+    padding: 0 !important;
+}
+
+mat-card-content p {
+    margin: 14px 0;
+}
+
+.mat-margin-4 {
+    margin-right: 10px;
+}

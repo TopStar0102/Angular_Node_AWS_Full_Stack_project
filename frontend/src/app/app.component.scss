@@ -1,0 +1,133 @@
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  /* Container */
+  .container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1565C0;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  thead {
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  td.actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  td.actions button {
+    margin-right: 0.5rem;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Navbar */
+    .navbar-nav {
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+  
+    .nav-link {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .navbar-toggler {
+      margin-top: 1rem;
+    }
+  
+    /* Container */
+    .container {
+      margin-top: 1rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  
+    table {
+      font-size: 0.8rem;
+    }
+}
+
+.ng-star-inserted, .mat-elevation-z8 {
+  width: 80%;
+}
+  
